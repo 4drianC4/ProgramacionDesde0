@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Apuntes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Día 01 - Apuntes"
             }
           }
         ]
@@ -239,14 +243,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Apuntes.md",
+    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Diapositivas.md",
+    "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Apuntes.md",
+    "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Diapositivas.md",
     "README.md.tmp.10566.aa0e7acd2076",
     "01 Clase 1 - Fundamentos/Clase 01 - Apuntes.md",
     "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Práctica.md",
-    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Diapositivas.md",
-    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Apuntes.md",
     "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Práctica.md",
-    "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Diapositivas.md",
-    "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Apuntes.md",
     "Semana 1/Día 02 - Tu primera clase en Java",
     "Semana 1/Día 01 - La computadora y los algoritmos",
     "Semana 1",
@@ -263,7 +267,6 @@
     "Recursos/Banco de exámenes pasados.md.tmp.10566.0129fd0edc30",
     "Recursos/Videos del curso.md.tmp.10566.c1330e5903e6",
     "Recursos",
-    "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Diapositivas.md.tmp.10566.075d762a203f",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Práctica.md",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Apuntes.md",
     "07 Diapositivas/Dia 5 - Recursion.md",
