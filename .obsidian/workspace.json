@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Banco de exámenes pasados.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Banco de exámenes pasados"
             }
           }
         ]
@@ -240,12 +244,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "README.md.tmp.10566.c66922d12a5b",
     "Recursos/Glosario.md",
-    "Recursos/Glosario.md.tmp.10566.f0f4c6800eb0",
     "Recursos/Banco de exámenes pasados.md",
-    "Recursos/Banco de exámenes pasados.md.tmp.10566.0129fd0edc30",
     "Recursos/Videos del curso.md",
+    "README.md.tmp.10566.c66922d12a5b",
+    "Recursos/Glosario.md.tmp.10566.f0f4c6800eb0",
+    "Recursos/Banco de exámenes pasados.md.tmp.10566.0129fd0edc30",
     "Recursos/Videos del curso.md.tmp.10566.c1330e5903e6",
     "Recursos",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Diapositivas.md",
@@ -256,7 +260,6 @@
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Práctica.md.tmp.10566.785939f7e040",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Práctica.md.tmp.10566.18ac6f8d5493",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Práctica.md",
-    "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Práctica.md.tmp.10566.8128789867dc",
     "01 Clase 1 - Fundamentos/Clase 01 - Práctica.md",
     "02 Clase 2 - Operadores, métodos y decisiones/Clase 02 - Apuntes.md",
     "01 Clase 1 - Fundamentos/Clase 01 - Apuntes.md",
