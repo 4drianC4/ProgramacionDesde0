@@ -307,7 +307,7 @@ Cada variable tiene un **tipo** que indica la naturaleza del valor que guarda.
 #### `String`: el tipo no primitivo que más usarás
 
 ```java
-String nombre = "Unicornio";   // comillas DOBLES
+String nombre = "Merlín";      // comillas DOBLES
 ```
 
 `String` **no** es primitivo: es una **clase** que Java ya trae (por eso no se pinta como las palabras reservadas y empieza con mayúscula). Una cadena es una secuencia de `char`.
@@ -348,7 +348,7 @@ System.out.println((char) 112);  // p
 ```
 
 > [!tip] Esto sale en exámenes
-> El **cifrado César** de un parcial de INF-135 se resuelve justamente con esta idea: las letras son números y se pueden sumar, restar y volver a convertir a `char`.
+> El **cifrado César** se resuelve justamente con esta idea: las letras son números y se pueden sumar, restar y volver a convertir a `char`.
 
 #### Curiosidades útiles para leer código ajeno
 
@@ -463,7 +463,6 @@ GRAVEDAD = 10;   // ✘ ERROR: cannot assign a value to final variable
 
 ## Para profundizar
 
-- 🎥 Videos de apoyo: [[Videos del curso#Clase 1|lista de videos de la Clase 1]]
 - 📖 Glosario: [[Glosario]]
 - ✍️ Siguiente paso: [[Clase 01 - Práctica]]
 - ➡️ Siguiente clase: [[Clase 02 - Apuntes]]

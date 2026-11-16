@@ -234,5 +234,5 @@ Antes de pasar a la [[Clase 02 - Apuntes|Clase 2]], comprueba que puedes:
 - [ ] Elegir el tipo de dato correcto y explicar por qué `long` lleva `L` y `float` lleva `F`.
 - [ ] Explicar el alcance de una variable y qué hace `final`.
 
-> [!quote] Conexión con los exámenes
-> Los parciales de INF-135 piden **siempre** entregar el programa junto con su **prueba de escritorio**. Practícala desde ahora. Revisa el [[Banco de exámenes pasados]] para ver qué temas se evalúan.
+> [!quote] Para los exámenes
+> En los exámenes de la materia se suele pedir el programa **junto con su prueba de escritorio**. Practícala desde ahora.

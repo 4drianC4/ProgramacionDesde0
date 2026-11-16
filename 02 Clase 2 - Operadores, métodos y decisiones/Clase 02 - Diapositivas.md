@@ -227,7 +227,7 @@ Entero en **[inf, sup)**:
 int n = (int) (Math.random() * (sup - inf)) + inf;
 ```
 
-Ejemplo de examen, objetivo en [10, 60):
+Ejemplo: número objetivo en [10, 60):
 
 ```java
 int objetivo = (int) (Math.random() * 50) + 10;
@@ -469,7 +469,5 @@ if (nombre == "Ana")      // usa .equals()
 # Tu turno
 
 ✍️ [[Clase 02 - Práctica]]
-
-🎥 Videos #5 a #10 → [[Videos del curso]]
 
 ➡️ Siguen las semanas de **resolución de ejercicios**

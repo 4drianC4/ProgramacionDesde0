@@ -285,7 +285,7 @@ Las palabras de color (`public`, `class`, `int`…) son **reservadas**: no las u
 # String
 
 ```java
-String nombre = "Unicornio";   // comillas DOBLES
+String nombre = "Merlín";      // comillas DOBLES
 char inicial = 'U';            // comillas SIMPLES
 ```
 
@@ -383,7 +383,5 @@ GRAVEDAD = 10;   // ERROR: es final
 # Tu turno
 
 ✍️ [[Clase 01 - Práctica]]
-
-🎥 Videos #0 a #4 → [[Videos del curso]]
 
 ➡️ Próxima clase: **operadores, métodos y decisiones**

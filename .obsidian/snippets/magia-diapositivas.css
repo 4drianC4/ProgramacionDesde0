@@ -1,0 +1,249 @@
+/* ==========================================================
+   Programación desde 0 · Diapositivas con temática mágica
+   Portada: cielo nocturno estrellado · Contenido: pergamino lavanda
+   ========================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@700;900&family=Fredoka:wght@500;600;700&display=swap');
+
+.reveal {
+  /* Paleta */
+  --m-noche: #140b33;
+  --m-noche-2: #2a1563;
+  --m-violeta: #5b21b6;
+  --m-violeta-claro: #8b5cf6;
+  --m-magenta: #c026d3;
+  --m-turquesa: #14b8a6;
+  --m-oro: #f5b80b;
+  --m-oro-claro: #fde68a;
+  --m-tinta: #241a3d;
+  --m-pergamino: #faf7ff;
+  --m-lavanda: #f1eaff;
+  --m-linea: #e4d9fb;
+
+  /* Tipografía */
+  --m-display: 'Fredoka', 'Segoe UI', system-ui, sans-serif;
+  --m-hechizo: 'Cinzel Decorative', Georgia, serif;
+  --m-text: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+  --m-mono: 'Atkinson Hyperlegible Mono', Consolas, ui-monospace, monospace;
+
+  font-family: var(--m-text);
+  font-size: 38px;
+  line-height: 1.4;
+  color: var(--m-tinta);
+}
+
+/* ---------- Fondo de las diapositivas de contenido ---------- */
+.reveal-viewport, .reveal {
+  background-color: var(--m-pergamino) !important;
+  background-image:
+    radial-gradient(circle at 100% 0%, rgba(192, 38, 211, 0.10) 0, transparent 32%),
+    radial-gradient(circle at 0% 100%, rgba(20, 184, 166, 0.10) 0, transparent 30%),
+    radial-gradient(circle at 92% 88%, rgba(245, 184, 11, 0.10) 0, transparent 18%) !important;
+}
+
+.reveal .slides section { text-align: left; color: var(--m-tinta); font-family: var(--m-text); }
+.reveal .slides section p,
+.reveal .slides section li { color: var(--m-tinta); font-size: 1em; }
+
+/* ---------- Títulos ---------- */
+.reveal .slides section h1 {
+  font-family: var(--m-display);
+  font-weight: 700;
+  font-size: 1.7em;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  margin: 0 0 0.55em;
+  color: var(--m-violeta);
+}
+.reveal .slides section h1::before {
+  content: '✦';
+  display: inline-block;
+  margin-right: 0.35em;
+  font-size: 0.6em;
+  vertical-align: 0.25em;
+  color: var(--m-oro);
+  text-shadow: 0 0 0.35em rgba(245, 184, 11, 0.7);
+}
+.reveal .slides section h1::after {
+  content: '';
+  display: block;
+  width: 2.4em;
+  height: 0.14em;
+  margin-top: 0.25em;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--m-violeta-claro), var(--m-magenta), var(--m-oro));
+}
+.reveal .slides section h2 {
+  font-family: var(--m-display);
+  font-weight: 600;
+  text-transform: none;
+  color: var(--m-violeta);
+}
+
+/* ---------- Texto ---------- */
+.reveal .slides section strong { color: var(--m-violeta); font-weight: 700; }
+.reveal .slides section em { color: var(--m-magenta); }
+.reveal .slides section a { color: var(--m-magenta); text-decoration: underline; text-underline-offset: 0.15em; }
+
+.reveal .slides section ul,
+.reveal .slides section ol { margin-left: 1.1em; display: block; }
+.reveal .slides section li { margin: 0.25em 0; }
+.reveal .slides section ul > li { list-style: none; position: relative; }
+.reveal .slides section ul > li::before {
+  content: '✧';
+  position: absolute;
+  left: -1.05em;
+  color: var(--m-magenta);
+  font-weight: 700;
+}
+.reveal .slides section ol > li::marker {
+  color: var(--m-magenta);
+  font-family: var(--m-display);
+  font-weight: 700;
+}
+
+/* ---------- Código ---------- */
+.reveal .slides section pre {
+  width: 100%;
+  margin: 0.5em 0;
+  box-shadow: 0 0.25em 0.9em rgba(91, 33, 182, 0.12);
+  background: var(--m-lavanda) !important;
+  border-radius: 18px;
+  border-left: 12px solid var(--m-violeta);
+  font-size: 0.7em;
+  overflow: visible !important;
+}
+.reveal .slides section pre code {
+  display: block;
+  padding: 0.75em 1em;
+  max-height: none;
+  font-family: var(--m-mono);
+  line-height: 1.45;
+  color: var(--m-tinta);
+  font-weight: 600;
+  background: transparent !important;
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere;
+  overflow: visible !important;
+}
+.reveal .slides section :not(pre) > code {
+  font-family: var(--m-mono);
+  font-size: 0.92em;
+  padding: 0.05em 0.3em;
+  border-radius: 8px;
+  background: var(--m-lavanda);
+  color: var(--m-violeta);
+}
+/* Colores del código: fondo claro y tinta saturada, legibles en proyector */
+.reveal pre .token.comment { color: #7a7096; font-style: italic; }
+.reveal pre .token.keyword { color: #6d28d9; }
+.reveal pre .token.operator,
+.reveal pre .token.punctuation { color: #a21caf; }
+.reveal pre .token.number,
+.reveal pre .token.boolean { color: #c2410c; }
+.reveal pre .token.string,
+.reveal pre .token.char { color: #0f766e; }
+.reveal pre .token.constant,
+.reveal pre .token.class-name { color: #1d4ed8; }
+.reveal pre .token.builtin,
+.reveal pre .token.function { color: #a16207; }
+.reveal pre .token.variable { color: var(--m-tinta); }
+
+/* ---------- Tablas ---------- */
+.reveal .slides section table { border-collapse: collapse; font-size: 0.9em; margin: 0.4em 0; }
+.reveal .slides section table th {
+  font-family: var(--m-display);
+  font-weight: 600;
+  background: transparent;
+  color: #ffffff;
+  padding: 0.45em 0.9em;
+  border: none;
+}
+.reveal .slides section table thead tr { background: linear-gradient(90deg, var(--m-violeta), var(--m-magenta)); }
+.reveal .slides section table td {
+  padding: 0.4em 0.9em;
+  border: none;
+  border-bottom: 2px solid var(--m-linea);
+  color: var(--m-tinta);
+}
+.reveal .slides section table tr:nth-child(even) td { background: rgba(241, 234, 255, 0.6); }
+
+/* ---------- Recuadros (callouts) ---------- */
+.reveal .slides section .callout {
+  border-radius: 18px;
+  padding: 0.6em 0.9em;
+  margin: 0.6em 0;
+  background: var(--m-lavanda);
+  border: none;
+  border-left: 10px solid var(--m-oro);
+  box-shadow: 0 0 0 2px rgba(245, 184, 11, 0.15);
+  font-size: 0.85em;
+  color: var(--m-tinta);
+}
+.reveal .slides section .callout-title {
+  font-family: var(--m-display);
+  font-weight: 600;
+  color: var(--m-violeta);
+}
+.reveal .slides section .callout-title-inner::before { content: '✨ '; }
+.reveal .slides section .callout-icon { display: none; }
+.reveal .slides section .callout-content p { color: var(--m-tinta); margin: 0.3em 0 0; }
+
+/* ---------- Controles ---------- */
+.reveal hr { display: none; }
+.reveal .controls { color: var(--m-magenta); }
+.reveal .progress { color: var(--m-magenta); height: 6px; }
+.reveal .progress span { background: linear-gradient(90deg, var(--m-violeta-claro), var(--m-magenta), var(--m-oro)) !important; }
+
+/* ==========================================================
+   PORTADA: la diapositiva con subtítulo (##) se vuelve
+   un cielo nocturno con estrellas
+   ========================================================== */
+.reveal-viewport:has(.slides section.present h2),
+.reveal:has(.slides section.present h2),
+.reveal-viewport:has(.slides section.present h2) .reveal {
+  background-color: var(--m-noche) !important;
+  background-image:
+    radial-gradient(2.5px 2.5px at 8% 14%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 22% 72%, #fff 50%, transparent 51%),
+    radial-gradient(3px 3px at 35% 30%, var(--m-oro-claro) 50%, transparent 51%),
+    radial-gradient(2px 2px at 48% 86%, #fff 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 63% 12%, #fff 50%, transparent 51%),
+    radial-gradient(3px 3px at 78% 58%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 88% 24%, var(--m-oro-claro) 50%, transparent 51%),
+    radial-gradient(2.5px 2.5px at 94% 80%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 15% 45%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 70% 40%, #fff 50%, transparent 51%),
+    radial-gradient(circle at 80% 15%, rgba(192, 38, 211, 0.35) 0, transparent 40%),
+    radial-gradient(circle at 10% 95%, rgba(20, 184, 166, 0.30) 0, transparent 45%),
+    linear-gradient(160deg, var(--m-noche) 0%, var(--m-noche-2) 55%, #4c1d95 100%) !important;
+}
+.reveal .slides section:has(h2) h1 {
+  font-family: var(--m-hechizo);
+  font-weight: 900;
+  font-size: 3em;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.15em;
+  background: linear-gradient(90deg, var(--m-oro-claro), var(--m-oro), #fb7185);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 0.25em rgba(245, 184, 11, 0.45));
+}
+.reveal .slides section:has(h2) h1::before { content: none; }
+.reveal .slides section:has(h2) h1::after {
+  width: 3em;
+  background: linear-gradient(90deg, var(--m-turquesa), var(--m-magenta), var(--m-oro));
+}
+.reveal .slides section:has(h2) h2 {
+  font-family: var(--m-display);
+  font-size: 1.3em;
+  line-height: 1.2;
+  color: #e9ddff;
+  margin: 0 0 1.4em;
+}
+.reveal .slides section:has(h2) h2::after {
+  content: ' 🪄';
+}
+.reveal .slides section:has(h2) p { color: #ffffff; font-size: 0.9em; }
+.reveal .slides section:has(h2) strong { color: var(--m-oro-claro); }

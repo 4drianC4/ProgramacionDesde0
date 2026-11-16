@@ -204,7 +204,7 @@ Para cada ejercicio: un método con la lógica (que **devuelve**), un `main` que
 
 ## Parte F · Problemas tipo examen ⭐⭐⭐
 
-Basados en **exámenes reales** de INF-135 (UMSS), adaptados a lo que sabes hasta ahora (sin ciclos ni arreglos). Ver el [[Banco de exámenes pasados]].
+Problemas con el estilo de los exámenes de la materia, resueltos con lo que sabes hasta ahora (sin ciclos ni arreglos).
 
 - [ ] **F1 · Cifrado César (una letra).** Cada letra se reemplaza por la que está `N` posiciones más adelante en el alfabeto inglés, dando la vuelta al llegar a la `z` (con N = 5: `'c'` → `'h'`, `'z'` → `'e'`).
   1. `public char cifrar(char c, int n)`

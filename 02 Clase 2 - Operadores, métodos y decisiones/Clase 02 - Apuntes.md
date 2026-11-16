@@ -234,7 +234,7 @@ Métodos **estáticos** listos para usar (no necesitas crear un objeto):
 > ```java
 > int n = (int) (Math.random() * (sup - inf)) + inf;
 > ```
-> Ejemplo de un primer parcial: número objetivo en $[10, 60)$ → `(int) (Math.random() * 50) + 10`.
+> Ejemplo: número objetivo en $[10, 60)$ → `(int) (Math.random() * 50) + 10`.
 
 ### 9. `+` con `String`: concatenación
 
@@ -543,7 +543,6 @@ La prueba de escritorio también sirve con código Java. Para un `if`, elige **u
 
 ## Para profundizar
 
-- 🎥 Videos de apoyo: [[Videos del curso#Clase 2|lista de videos de la Clase 2]]
 - 📖 Glosario: [[Glosario]]
 - ✍️ Siguiente paso: [[Clase 02 - Práctica]]
 - ⬅️ Clase anterior: [[Clase 01 - Apuntes]]

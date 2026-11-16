@@ -2,7 +2,7 @@
   "cssTheme": "Encore",
   "theme": "moonstone",
   "enabledCssSnippets": [
-    "proskell-diapositivas"
+    "magia-diapositivas"
   ],
   "showRibbon": true
 }
