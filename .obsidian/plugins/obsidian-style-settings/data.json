@@ -1,0 +1,9 @@
+{
+  "encore-settings@@theme-dark": "encore-theme-dark-glass-royale",
+  "encore-settings@@theme-light": "encore-theme-light-atom",
+  "encore-settings@@colors": "encore-colors-colorful",
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@encore-translucency-background": "encore-bg-prismatic",
+  "encore-settings@@encore-translucency-strength": 0.5,
+  "encore-settings@@encore-translucency-blur-amount": 13
+}

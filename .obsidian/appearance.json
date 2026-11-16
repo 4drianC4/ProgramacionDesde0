@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Encore",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "proskell-diapositivas"
+  ],
+  "showRibbon": true
+}

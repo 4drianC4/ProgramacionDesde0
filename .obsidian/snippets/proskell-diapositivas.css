@@ -1,0 +1,142 @@
+/* Fuentes de ProsKell */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700;800&display=swap');
+
+.reveal {
+  --s-display: 'Lexend', 'Segoe UI', system-ui, sans-serif;
+  --s-text: 'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+  --s-mono: 'Atkinson Hyperlegible Mono', Consolas, ui-monospace, monospace;
+  font-family: var(--s-text);
+  font-size: 38px;
+  line-height: 1.4;
+  color: var(--s-ink);
+}
+.reveal-viewport, .reveal { background: var(--s-bg) !important; }
+.reveal .slides section { text-align: left; color: var(--s-ink); font-family: var(--s-text); }
+.reveal .slides section p, .reveal .slides section li { color: var(--s-ink); font-size: 1em; }
+
+.reveal .slides section h1 {
+  font-family: var(--s-display);
+  font-weight: 800;
+  font-size: 1.7em;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: none;
+  margin: 0 0 0.55em;
+  color: var(--s-title);
+}
+.reveal .slides section h2 { font-family: var(--s-display); font-weight: 700; text-transform: none; color: var(--s-title); }
+.reveal .slides section strong { color: var(--s-strong); font-weight: 700; }
+.reveal .slides section ul, .reveal .slides section ol { margin-left: 1.1em; display: block; }
+.reveal .slides section li { margin: 0.25em 0; }
+.reveal .slides section ol > li::marker { color: var(--s-marker); font-family: var(--s-display); font-weight: 700; }
+.reveal .slides section ul > li::marker { color: var(--s-marker); }
+.reveal .slides section a { color: var(--s-link); text-decoration: underline; text-underline-offset: 0.15em; }
+
+/* Código */
+.reveal .slides section pre {
+  width: 100%;
+  margin: 0.5em 0;
+  box-shadow: none;
+  background: var(--s-code-bg) !important;
+  border-radius: 18px;
+  border-left: 12px solid var(--s-code-edge);
+  font-size: 0.7em;
+  overflow: visible !important;
+}
+.reveal .slides section pre code {
+  display: block;
+  padding: 0.75em 1em;
+  max-height: none;
+  font-family: var(--s-mono);
+  line-height: 1.45;
+  color: var(--s-code-ink);
+  font-weight: 600;
+  background: transparent !important;
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere;
+  overflow: visible !important;
+}
+.reveal .slides section :not(pre) > code {
+  font-family: var(--s-mono);
+  font-size: 0.92em;
+  padding: 0.05em 0.3em;
+  border-radius: 8px;
+  background: var(--s-inline-bg);
+  color: var(--s-inline-ink);
+}
+/* Colores del código pensados para proyector: fondo claro, tinta saturada */
+.reveal pre .token.comment { color: #6b6f7a; font-style: italic; }
+.reveal pre .token.keyword { color: #1f4fa3; }
+.reveal pre .token.operator, .reveal pre .token.punctuation { color: #a6192e; }
+.reveal pre .token.number { color: #d9480f; }
+.reveal pre .token.string, .reveal pre .token.char { color: #1f7a33; }
+.reveal pre .token.constant, .reveal pre .token.class-name { color: #0b6e78; }
+.reveal pre .token.builtin, .reveal pre .token.function { color: #b35c00; }
+.reveal pre .token.hvariable, .reveal pre .token.variable { color: var(--s-code-ink); }
+
+/* Tablas */
+.reveal .slides section table { border-collapse: collapse; font-size: 0.9em; margin: 0.4em 0; }
+.reveal .slides section table th {
+  font-family: var(--s-display);
+  font-weight: 700;
+  background: var(--s-th-bg);
+  color: var(--s-th-ink);
+  padding: 0.45em 0.9em;
+  border: none;
+}
+.reveal .slides section table td { padding: 0.4em 0.9em; border: none; border-bottom: 2px solid var(--s-line); color: var(--s-ink); }
+
+/* Recuadros */
+.reveal .slides section .callout {
+  border-radius: 18px;
+  padding: 0.6em 0.9em;
+  margin: 0.6em 0;
+  background: var(--s-callout-bg);
+  border: none;
+  border-left: 10px solid #1b2a4e;
+  font-size: 0.85em;
+  color: var(--s-ink);
+}
+.reveal .slides section .callout-title { font-family: var(--s-display); font-weight: 700; color: var(--s-callout-title); }
+.reveal .slides section .callout-icon { display: none; }
+.reveal .slides section .callout-content p { color: var(--s-ink); margin: 0.3em 0 0; }
+
+.reveal hr { display: none; }
+.reveal .controls { color: #a6192e; }
+.reveal .progress { color: #a6192e; height: 6px; }
+/* Formal UMSS · minimalista */
+.reveal {
+  --s-bg: #ffffff; --s-ink: #1f2433; --s-title: #1b2a4e; --s-strong: #1b2a4e;
+  --s-marker: #a6192e; --s-link: #1b2a4e; --s-inline-bg: #eef0f4; --s-inline-ink: #1b2a4e;
+  --s-th-bg: #1b2a4e; --s-th-ink: #ffffff; --s-line: #e3e6ec;
+  --s-callout-bg: #f3f5f8; --s-callout-title: #1b2a4e;
+  --s-code-bg: #f3f5f8; --s-code-edge: #1b2a4e; --s-code-ink: #1f2433;
+}
+.reveal .slides section h1::after { content: ''; display: block; width: 1.6em; height: 0.14em; margin-top: 0.22em; background: #a6192e; border-radius: 99px; }
+
+/* Portada: la diapositiva con subtítulo (##) pinta toda la pantalla de azul marino */
+.reveal-viewport:has(.slides section.present h2),
+.reveal:has(.slides section.present h2),
+.reveal-viewport:has(.slides section.present h2) .reveal { background: #1b2a4e !important; }
+.reveal .slides section:has(h2) h1 { font-size: 3.2em; color: #ffffff; margin-bottom: 0.1em; }
+.reveal .slides section:has(h2) h1::after { background: #c8102e; }
+.reveal .slides section:has(h2) h2 { font-size: 1.3em; line-height: 1.2; color: #d6dcea; margin: 0 0 1.4em; }
+.reveal .slides section:has(h2) p { color: #ffffff; font-size: 0.9em; }
+.reveal .slides section:has(h2) strong { color: #d6dcea; }
+
+/* Portada formal (con logos): azul marino institucional */
+.reveal .slides > section:has(img) { top: 0 !important; height: 100% !important; padding-top: 0 !important; }
+.reveal .slides section:has(img), .reveal .slides section:has(img) * { text-align: center !important; }
+.reveal .slides section:has(img) table { width: 100% !important; margin: 0 0 2.4em !important; border-collapse: collapse !important; background: #eef0f4 !important; box-shadow: 0 0 0 100vmax #eef0f4, 0 6px 0 100vmax #a6192e !important; clip-path: inset(-100vmax -100vmax -6px -100vmax); font-size: 1em !important; }
+.reveal .slides section:has(img) thead, .reveal .slides section:has(img) tr, .reveal .slides section:has(img) th, .reveal .slides section:has(img) td { background: transparent !important; border: 0 !important; }
+.reveal .slides section:has(img) th { color: #1b2a4e !important; padding: 0.9em 0.6em !important; vertical-align: middle !important; font-family: Georgia, 'Times New Roman', serif !important; font-weight: 700 !important; font-size: 0.58em !important; line-height: 1.5 !important; text-transform: uppercase !important; letter-spacing: 0.04em !important; font-style: normal !important; }
+.reveal .slides section:has(img) th:first-child, .reveal .slides section:has(img) th:last-child { width: 18%; }
+.reveal .slides section:has(img) img { height: 5.4em !important; width: auto !important; max-width: none !important; margin: 0 auto !important; border: 0 !important; box-shadow: none !important; background: none !important; display: block; mix-blend-mode: multiply; }
+.reveal .slides section:has(img) h1 { color: #1b2a4e !important; font-size: 1.9em !important; margin: 0 auto 0.7em !important; }
+.reveal .slides section:has(img) h1::after { background: #a6192e !important; margin: 0.35em auto 0 !important; }
+.reveal .slides section:has(img) p { text-transform: none !important; letter-spacing: normal !important; font-style: normal !important; margin: 0 0 0.4em !important; }
+.reveal .slides section:has(img) strong { color: #1b2a4e !important; font-family: var(--s-display); font-weight: 600 !important; font-size: 1.05em; }
+.reveal .slides section:has(img) em { font-style: normal !important; text-transform: none !important; letter-spacing: normal !important; color: #5b6275 !important; font-size: 0.8em; }
+
+/* QR de ProsKell (a la derecha, junto al texto) */
+.reveal .slides section svg[viewBox="0 0 33 37"] { float: right; width: 7.5em !important; height: 8.4em !important; margin: 0 0 0.5em 1em; }
