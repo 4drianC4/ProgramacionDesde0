@@ -1,19 +1,19 @@
 ---
 tipo: practica
-clase: 1
-semanas: [1, 2]
-tema: Algoritmos, prueba de escritorio, clases, tipos y variables
-tags: [java, intro-programacion, clase-01, practica]
+dia: 1
+semana: 1
+tema: Computadora, binario, algoritmos y prueba de escritorio
+tags: [java, intro-programacion, dia-01, practica]
 ---
 
-# Práctica · Clase 1
+# Práctica · Día 1
 
 > [!info] Cómo usar esta práctica
-> - Antes de empezar, repasa los [[Clase 01 - Apuntes|apuntes de la Clase 1]].
-> - Marca cada ejercicio con ✅ cuando lo termines (los checkboxes funcionan en Obsidian).
+> - Antes de empezar, repasa los [[Día 01 - Apuntes|apuntes del Día 1]].
+> - Marca cada ejercicio cuando lo termines (los checkboxes funcionan en Obsidian).
 > - Dificultad: ⭐ básico · ⭐⭐ intermedio · ⭐⭐⭐ reto.
 > - Abre las **pistas** solo después de intentarlo al menos 10 minutos.
-> - Las partes A–C se hacen en **papel**. La parte D, en **BlueJ** (un proyecto `Clase01`).
+> - Toda esta práctica se hace en **papel**: todavía no usamos la computadora.
 
 ---
 
@@ -126,113 +126,18 @@ Para cada algoritmo: haz la **prueba de escritorio** con los datos indicados, **
 > [!tip]- Pista C4
 > En el paso 4, `S` acumula los **divisores** de `N` (sin contar al propio `N`). ¿Qué nombre reciben los números iguales a la suma de sus divisores?
 
----
-
-## Parte D · Java en BlueJ
-
-### D.1 · Estructura de una clase
-
-- [ ] **D1** ⭐ Crea la clase `Ejemplo` en BlueJ **sin modificar la plantilla**. Compílala, crea un objeto, inspecciónalo y ejecuta su método con el parámetro `5`. ¿Qué valor devuelve? ¿Por qué?
-- [ ] **D2** ⭐ En la plantilla de la clase `Ejemplo`, señala con comentarios: los atributos, el constructor, los métodos, cada bloque `{ }` y el comentario Javadoc. Pulsa `Ctrl+J` y describe lo que ves.
-- [ ] **D3** ⭐ Crea la clase `Auto` con los atributos `marca` (`String`), `color` (`String`), `anio` (`int`) y `precio` (`double`). En el constructor dales valores iniciales. Crea **dos** objetos e inspecciónalos.
-
-### D.2 · Tipos de datos
-
-- [ ] **D4** ⭐ Elige el tipo de dato más adecuado y declara (con un valor de ejemplo) una variable para cada caso:
-  1. La edad de una persona
-  2. El precio de un producto en bolivianos
-  3. Si un estudiante está inscrito o no
-  4. La inicial del apellido
-  5. El nombre de la carrera
-  6. La población del mundo
-  7. El código SIS de un estudiante
-  8. La nota final de una materia (puede ser 50.5)
-- [ ] **D5** ⭐⭐ Crea la clase `TiposDeDatos` con un atributo de **cada** tipo primitivo (`byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`) más un `String`. Compílala e inspecciona un objeto.
-- [ ] **D6** ⭐⭐ Encuentra el error de cada línea **sin compilar**, escribe el mensaje que crees que dará el compilador y luego compruébalo en BlueJ:
-  ```java
-  byte b = 200;
-  long l = 9000000000;
-  float f = 3.14;
-  char c = "A";
-  String s = 'Hola';
-  int 2numero = 5;
-  double class = 1.5;
-  boolean v = "true";
-  ```
-- [ ] **D7** ⭐⭐ ¿Qué guarda cada variable? Predice y luego compruébalo con el inspector:
-  ```java
-  char c1 = 65;
-  char c2 = 'a' + 2;
-  int  i1 = 'Z';
-  int  i2 = '9' - '0';
-  int  i3 = 0x1F;
-  int  i4 = 0b1010;
-  ```
-
-### D.3 · Variables, alcance y constantes
-
-- [ ] **D8** ⭐ Crea la clase `Circulo` con el atributo `radio` y la constante `final double PI = 3.1416;`. Intenta asignarle otro valor a `PI` dentro de un método. Copia el mensaje de error.
-- [ ] **D9** ⭐⭐ Este código no compila. Encuentra **todos** los errores y explica cada uno usando el concepto de **alcance**:
-  ```java
-  public class Errores {
-      private int total;
-
-      public void sumar(int a) {
-          int parcial = a * 2;
-          total = total + parcial;
-      }
-
-      public int obtener() {
-          return parcial + a;
-      }
-  }
-  ```
-- [ ] **D10** ⭐⭐ Clasifica cada variable como **atributo**, **parámetro** o **local**, e indica dónde **muere**:
-  ```java
-  public class Tienda {
-      private String nombre;
-      private int ventas;
-
-      public Tienda() {
-          nombre = "Mi tienda";
-          ventas = 0;
-      }
-
-      public int registrar(int cantidad) {
-          int nuevas = cantidad + 1;
-          ventas = ventas + nuevas;
-          return ventas;
-      }
-  }
-  ```
-
-### D.4 · Del algoritmo a la clase
-
-- [ ] **D11** ⭐⭐ Crea la clase `Estudiante` con los atributos `nombre`, `codigoSis`, `nota1`, `nota2` y la constante `NOTA_MINIMA = 51`. Escribe un constructor que inicialice todo y comprueba con el inspector que los valores son los esperados.
-- [ ] **D12** ⭐⭐⭐ **Mini-proyecto.** Modela con una clase uno de estos objetos de la vida real. Decide sus atributos (con el tipo correcto), al menos una constante y su constructor:
-  - Un **producto** de una tienda (código, nombre, precio, stock, si es perecedero)
-  - Una **cuenta bancaria** (titular, número, saldo, si está activa)
-  - Un **personaje** de videojuego (nombre, vida, ataque, nivel, inicial del equipo)
-
-> [!tip]- Pista D6
-> Hay 8 líneas y 8 errores: rango de `byte`, falta de sufijo `L`, falta de sufijo `F`, comillas dobles en un `char`, comillas simples en un `String`, nombre que empieza con dígito, palabra reservada como nombre y texto en un `boolean`.
-
-> [!tip]- Pista D9
-> `parcial` se declaró dentro de `sumar`: ¿dónde muere? ¿Y `a`?
 
 ---
 
 ## Autoevaluación
 
-Antes de pasar a la [[Clase 02 - Apuntes|Clase 2]], comprueba que puedes:
+Antes de pasar al [[Día 02 - Apuntes|Día 2]], comprueba que puedes:
 
 - [ ] Explicar entrada → proceso → salida y la diferencia entre hardware y software.
 - [ ] Convertir números entre decimal y binario.
+- [ ] Explicar qué hacen el compilador y la JVM.
 - [ ] Escribir un algoritmo con contador, acumulador y repetición.
 - [ ] Hacer la prueba de escritorio de cualquier algoritmo de la Parte C.
-- [ ] Señalar atributos, constructor y métodos en una clase Java.
-- [ ] Elegir el tipo de dato correcto y explicar por qué `long` lleva `L` y `float` lleva `F`.
-- [ ] Explicar el alcance de una variable y qué hace `final`.
 
 > [!quote] Para los exámenes
-> En los exámenes de la materia se suele pedir el programa **junto con su prueba de escritorio**. Practícala desde ahora.
+> En los exámenes de la materia se suele pedir el programa **junto con su prueba de escritorio**. Practícala desde hoy.
