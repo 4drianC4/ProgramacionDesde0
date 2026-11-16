@@ -213,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.6666259765625
+    "width": 328
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,7 +241,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "18c00a47f5983a5c",
   "lastOpenFiles": [
     "Recursos/Glosario.md",
     "01 Clase 1 - Fundamentos/Clase 01 - Apuntes.md",
