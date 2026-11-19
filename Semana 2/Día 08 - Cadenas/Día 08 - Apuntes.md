@@ -33,7 +33,7 @@ s.toUpperCase();          // ✘ no cambia s
 s = s.toUpperCase();      // ✔ ahora s es "HOLA"
 ```
 
-### 2. Índices: las posiciones de una cadena
+### 2. Índices, las posiciones de una cadena
 
 Cada carácter tiene una **posición** que empieza en **0**.
 

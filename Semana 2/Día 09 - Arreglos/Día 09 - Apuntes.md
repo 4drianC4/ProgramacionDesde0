@@ -31,7 +31,7 @@ Si necesitas las notas de 40 estudiantes, no vas a declarar `nota1`, `nota2`, �
 | `notas` | 75 | 48 | 91 | 60 | 33 |
 
 - `notas[0]` vale 75, `notas[2]` vale 91.
-- Igual que en los `String` ([[Día 08 - Apuntes#2. Índices las posiciones de una cadena|Día 8]]), los índices van de **0** a **`length - 1`**.
+- Igual que en los `String` ([[Día 08 - Apuntes#2. Índices, las posiciones de una cadena|Día 8]]), los índices van de **0** a **`length - 1`**.
 
 ### 2. Declarar y crear
 

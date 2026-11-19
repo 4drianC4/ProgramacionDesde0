@@ -184,7 +184,7 @@ public class Conversor {
 | Un "subproblema" del algoritmo | Un **método** que devuelve su resultado |
 
 > [!tip] Probar en BlueJ y con `main`
-> Sigue probando cada método con clic derecho sobre un objeto, como el [[Día 02 - Apuntes#4. Probar en BlueJ objetos e inspector|Día 2]]. Cuando todos funcionen, escribe el `main` que los usa.
+> Sigue probando cada método con clic derecho sobre un objeto, como el [[Día 02 - Apuntes#4. Probar en BlueJ con objetos e inspector|Día 2]]. Cuando todos funcionen, escribe el `main` que los usa.
 
 ---
 

@@ -30,7 +30,7 @@ Usaremos **BlueJ** porque deja **ver** los objetos y probar métodos sin escribi
 4. **Nueva clase** → escribe el nombre (empieza con **mayúscula**) → doble clic para abrir el editor.
 
 > [!tip] Si usas otro IDE
-> IntelliJ, NetBeans, Eclipse o VS Code también sirven. La lógica es la misma; solo cambia que para probar necesitarás un método `main` (lo veremos el **Día 4**).
+> IntelliJ, NetBeans, Eclipse o VS Code también sirven. La lógica es la misma; solo cambia que para probar necesitarás un método `main` (lo veremos el [[Día 04 - Apuntes|Día 4]]).
 
 ### 2. Clase y objeto
 
@@ -90,7 +90,7 @@ public class Ejemplo {
     BlueJ lo muestra en la vista de documentación (Ctrl+J) */
 ```
 
-### 4. Probar en BlueJ: objetos e inspector
+### 4. Probar en BlueJ con objetos e inspector
 
 1. **Compilar** (botón *Compile*). Si hay errores, BlueJ marca la línea.
 2. Clic derecho sobre la clase → `new Ejemplo()` → ponle un nombre (`objeto1`). Aparece una ficha roja abajo: **ese es tu objeto**.
@@ -248,7 +248,7 @@ GRAVEDAD = 10;   // ✘ ERROR: cannot assign a value to final variable
 | `C ← C + 1` | `c = c + 1;` |
 | `M ← A` | `m = a;` |
 | `Mostrar S` | `System.out.println(s);` |
-| `Leer X` | `x = sc.nextInt();` (lo veremos el **Día 4**) |
+| `Leer X` | `x = sc.nextInt();` (lo veremos el [[Día 04 - Apuntes\|Día 4]]) |
 
 > [!example] Una clase completa con lo de esta clase
 > ```java
@@ -286,4 +286,4 @@ GRAVEDAD = 10;   // ✘ ERROR: cannot assign a value to final variable
 - ✍️ Practica: [[Día 02 - Práctica]]
 - 📖 Glosario: [[Glosario]]
 - ⬅️ Ayer: [[Día 01 - Apuntes|Día 1 · La computadora y los algoritmos]]
-- ➡️ Mañana: **Día 3 · Operadores y expresiones** (ver la [[README|ruta]])
+- ➡️ Mañana: [[Día 03 - Apuntes|Día 3 · Operadores y expresiones]]

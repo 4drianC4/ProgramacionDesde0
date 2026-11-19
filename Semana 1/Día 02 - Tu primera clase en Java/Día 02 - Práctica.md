@@ -111,7 +111,7 @@ tags: [java, intro-programacion, dia-02, practica]
 
 ## Autoevaluación
 
-Antes de pasar al Día 3, comprueba que puedes:
+Antes de pasar al [[Día 03 - Apuntes|Día 3]], comprueba que puedes:
 
 - [ ] Crear una clase en BlueJ, compilarla, crear objetos e inspeccionarlos.
 - [ ] Señalar atributos, constructor y métodos en una clase Java.
