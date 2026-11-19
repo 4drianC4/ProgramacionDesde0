@@ -11,30 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Drawing 2026-11-16 16.00.11.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-11-16 16.00.11.excalidraw"
-            }
-          },
-          {
-            "id": "b008a3f8c755df97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Práctica.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Día 02 - Práctica"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,8 +238,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b008a3f8c755df97",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Práctica.md",
     "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Diapositivas.md",
     "Drawing 2026-11-16 16.00.11.excalidraw.md",
     "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Práctica.md",
@@ -265,7 +249,6 @@
     "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Apuntes.md",
     "README.md.tmp.10566.aa0e7acd2076",
     "01 Clase 1 - Fundamentos/Clase 01 - Apuntes.md",
-    "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Práctica.md",
     "Semana 1/Día 02 - Tu primera clase en Java",
     "Semana 1/Día 01 - La computadora y los algoritmos",
     "Semana 1",
