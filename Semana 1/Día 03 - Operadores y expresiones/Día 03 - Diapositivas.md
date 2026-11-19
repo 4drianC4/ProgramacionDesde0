@@ -139,7 +139,7 @@ Hacen una **pregunta** → `true` o `false`
 ---
 
 # Operadores lógicos
-
+  
 | Op     | Es true si…              | En español                        |
 | ------ | ------------------------ | --------------------------------- |
 | `&&`   | **todas** son true       | "es lunes **y** son las 8"        |
