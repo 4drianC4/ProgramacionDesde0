@@ -14,7 +14,7 @@ tags: [java, intro-programacion, dia-03, apuntes]
 
 > [!abstract] Al terminar este día podrás…
 > - Escribir y **evaluar expresiones** con operadores aritméticos, relacionales y lógicos.
-> - Evitar las trampas típicas: **división entera**, `++` antes y después, comparar `String` con <code>&#61;&#61;</code>.
+> - Evitar las trampas típicas: **división entera**, `++` antes y después, comparar `String` con `a == b`.
 > - Usar el operador **módulo** para pares, divisores y dígitos.
 > - Respetar la **precedencia** de operadores.
 > - **Convertir tipos** (*casting*) y usar la clase `Math`.
@@ -69,8 +69,8 @@ Es uno de los operadores más útiles en los ejercicios de la materia:
 
 | Para… | Expresión | Ejemplo |
 |---|---|---|
-| Saber si `n` es **par** | <code>n % 2 &#61;&#61; 0</code> | `8 % 2` → `0` |
-| Saber si `d` **divide** a `n` | <code>n % d &#61;&#61; 0</code> | `15 % 5` → `0` |
+| Saber si `n` es **par** | `n % 2 == 0` | `8 % 2` → `0` |
+| Saber si `d` **divide** a `n` | `n % d == 0` | `15 % 5` → `0` |
 | Obtener el **último dígito** | `n % 10` | `427 % 10` → `7` |
 | **Quitar** el último dígito | `n / 10` | `427 / 10` → `42` |
 | "Dar la vuelta" (reloj, días) | `(h + k) % 24` | `(22 + 5) % 24` → `3` |
@@ -119,15 +119,15 @@ Comparan dos valores y **siempre** devuelven un `boolean`. Léelos como **pregun
 
 | Operador | Pregunta | Ejemplo | Resultado |
 |---|---|---|---|
-| <code>&#61;&#61;</code> | ¿son iguales? | <code>5 &#61;&#61; 5</code> | `true` |
-| `!=` | ¿son distintos? | `23 != 7` | `true` |
-| `>` | ¿es mayor? | `5 > 3` | `true` |
-| `<` | ¿es menor? | `5 < 3` | `false` |
-| `>=` | ¿es mayor o igual? | `5 >= 5` | `true` |
-| `<=` | ¿es menor o igual? | `5 <= 3` | `false` |
+| `a == b` | ¿son iguales? | `5 == 5` | `true` |
+| `a != b` | ¿son distintos? | `23 != 7` | `true` |
+| `a > b` | ¿es mayor? | `5 > 3` | `true` |
+| `a < b` | ¿es menor? | `5 < 3` | `false` |
+| `a >= b` | ¿es mayor o igual? | `5 >= 5` | `true` |
+| `a <= b` | ¿es menor o igual? | `5 <= 3` | `false` |
 
-> [!warning] `=` no es <code>&#61;&#61;</code>
-> `=` **asigna** un valor. <code>&#61;&#61;</code> **pregunta** si dos valores son iguales.
+> [!warning] `x = 5` no es `x == 5`
+> `x = 5` **asigna** el valor 5 a `x`. `x == 5` **pregunta** si `x` vale 5.
 
 > [!danger] Comparar `String`: usa `.equals()`
 > ```java
@@ -136,7 +136,7 @@ Comparan dos valores y **siempre** devuelven un `boolean`. Léelos como **pregun
 > boolean b2 = a.equalsIgnoreCase("JAVA");  // ✔ sin importar mayúsculas
 > boolean b3 = a == "java";                 // ✘ compara referencias: a veces falla
 > ```
-> `String` es una clase (no primitivo); <code>&#61;&#61;</code> compara si son **el mismo objeto**, no si tienen el mismo texto.
+> `String` es una clase (no primitivo); `a == b` compara si son **el mismo objeto**, no si tienen el mismo texto.
 
 ### 6. Operadores lógicos
 
@@ -164,7 +164,7 @@ boolean esImpar   = !(n % 2 == 0);
 ```
 
 > [!tip] Evaluación en cortocircuito
-> En `a && b`, si `a` es `false`, Java **ni mira** `b` (ya sabe que el resultado es `false`). En `a || b`, si `a` es `true`, tampoco mira `b`. Eso permite escribir con seguridad: <code>divisor !&#61; 0 &amp;&amp; n % divisor &#61;&#61; 0</code>.
+> En `a && b`, si `a` es `false`, Java **ni mira** `b` (ya sabe que el resultado es `false`). En `a || b`, si `a` es `true`, tampoco mira `b`. Eso permite escribir con seguridad: `divisor != 0 && n % divisor == 0`.
 
 > [!warning] No confundas `&&` con `&`
 > `&`, `|`, `^`, `~`, `<<`, `>>` son operadores **a nivel de bits**. Existen, pero no son parte de esta materia. Si escribes `&` por error, a veces compila y da resultados inesperados.
@@ -180,17 +180,17 @@ De **mayor** a **menor** prioridad (los de la misma fila se evalúan de izquierd
 | 3         | `*` `/` `%`                                          |
 | 4         | `+` `-`                                              |
 | 5         | `<` `>` `<=` `>=`                                    |
-| 6         | <code>&#61;&#61;</code> `!=`                         |
+| 6         | `a == b` `a != b`                                    |
 | 7         | `&&`                                                 |
 | 8         | `\|\|`                                               |
 | 9         | `?:` (ternario)                                      |
-| 10        | `=` `+=` `-=` … (asignación, de derecha a izquierda) |
+| 10        | `x = y` `x += y` `x -= y` … (asignación, de derecha a izquierda) |
 
 > [!example] Evaluación paso a paso
-> <code>3 + 4 &#42; 2 &gt; 10 &amp;&amp; 7 % 2 &#61;&#61; 1</code>
+> `3 + 4 * 2 > 10 && 7 % 2 == 1`
 > 1. `4 * 2` → `8`, y `7 % 2` → `1`
 > 2. `3 + 8` → `11`
-> 3. `11 > 10` → `true`, y <code>1 &#61;&#61; 1</code> → `true`
+> 3. `11 > 10` → `true`, y `1 == 1` → `true`
 > 4. `true && true` → **`true`**
 
 > [!tip] Ante la duda, paréntesis
@@ -254,7 +254,7 @@ System.out.println("Total: " + (3 + 4)); // "Total: 7"   ✔
 > - `/` entre enteros **descarta** decimales. `%` da el **residuo**: sirve para pares, divisores y dígitos.
 > - `x++` entrega el valor **viejo**; `++x`, el **nuevo**.
 > - Los relacionales y lógicos devuelven `boolean`. `&&`: todas; `||`: al menos una; `!`: invierte.
-> - `String` se compara con **`.equals()`**, nunca con <code>&#61;&#61;</code>.
+> - `String` se compara con **`.equals()`**, nunca con `a == b`.
 > - *Casting*: `(int) 9.99` → `9` (corta). Aleatorio en $[inf, sup)$: `(int)(Math.random()*(sup-inf))+inf`.
 > - Ante la duda sobre la precedencia, usa **paréntesis**.
 

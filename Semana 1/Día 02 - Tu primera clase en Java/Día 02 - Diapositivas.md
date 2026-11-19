@@ -179,7 +179,7 @@ int nota = 75;      // declaración + inicialización
 int dia = 24, mes = 3;
 ```
 
-`=` **asigna**: la derecha se guarda en la izquierda.
+`edad = 20` **asigna**: la derecha se guarda en la izquierda.
 
 ---
 

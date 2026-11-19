@@ -67,7 +67,7 @@ tags: [java, intro-programacion, dia-05, practica]
 > [!question]- Respuestas de la Parte A
 > **A1:** `AMBOS`, `TRES`, `CINCO`, `NINGUNO`.
 >
-> **A2:** (1) <code>&#61;&#61;</code> con `String` → usar `nombre.equals("Ana")`; (2) el `;` después del `if` hace que el bloque se ejecute siempre; (3) sin llaves, `r = r + "!";` no pertenece al segundo `if` y se ejecuta siempre.
+> **A2:** (1) `nombre == "Ana"` compara referencias → usar `nombre.equals("Ana")`; (2) el `;` después del `if` hace que el bloque se ejecute siempre; (3) sin llaves, `r = r + "!";` no pertenece al segundo `if` y se ejecuta siempre.
 >
 > **A3:** `tipo(2)` → `"tres"` (falta `break` después de `case 2`, así que cae en `case 3`). `tipo(5)` → `"otro"`. Faltan los `break` en `case 1` y `case 2`.
 >
@@ -111,7 +111,7 @@ tags: [java, intro-programacion, dia-05, practica]
   1. El constructor elige un objetivo aleatorio en $[10, 60)$ y pone `acumulado` en 0.
   2. `public boolean esIncrementoValido(int inc)`
   3. `public String jugar(int inc)`: si el incremento no es válido, devuelve `"Incremento inválido"`; si no, actualiza `acumulado` y devuelve `"Acumulado: X"`, `"¡GANASTE!"` o `"EMPATE: te pasaste"`.
-  4. Extra: `public int jugadaComputadora()` que devuelva el incremento que deja <code>(objetivo - acumulado) % 5 &#61;&#61; 0</code>, o `1` si no es posible.
+  4. Extra: `public int jugadaComputadora()` que devuelva el incremento que deja `(objetivo - acumulado) % 5 == 0`, o `1` si no es posible.
 
 - [ ] **D2 · ¿Mayor o menor?** La computadora piensa un número secreto entre 1 y 100. En las preguntas **impares** responde `true` si el número dado es **menor o igual** que el secreto; en las **pares**, `true` si es **mayor**. Crea la clase `Adivina` con `numeroSecreto` (aleatorio) y `partida` (contador de preguntas), y el método `public boolean darNumero(int numero)`.
 

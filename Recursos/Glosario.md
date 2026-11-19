@@ -15,7 +15,7 @@ Términos del curso, en orden alfabético. Entre paréntesis, el día donde se e
 | **Argumento** | Valor concreto que se pasa a un método al llamarlo: en `sumar(8, 8)` los argumentos son 8 y 8. ([[Día 04 - Apuntes\|Día 4]]) |
 | **Arreglo** | Estructura que guarda muchos valores del mismo tipo bajo un nombre, accesibles por su índice: `int[] a = new int[5];`. ([[Día 09 - Apuntes\|Día 9]]) |
 | **Arreglos paralelos** | Varios arreglos del mismo tamaño donde la misma posición corresponde al mismo elemento. ([[Día 09 - Apuntes\|Día 9]]) |
-| **Asignación** | Guardar un valor en una variable con `=`. La derecha se evalúa y se guarda en la izquierda. ([[Día 01 - Apuntes\|Día 1]]) |
+| **Asignación** | Guardar un valor en una variable: `edad = 20`. La derecha se evalúa y se guarda en la izquierda. ([[Día 01 - Apuntes\|Día 1]]) |
 | **Atributo** | Variable declarada en la clase, fuera de los métodos. Representa una característica del objeto. También: campo, propiedad, variable de instancia. ([[Día 02 - Apuntes\|Día 2]]) |
 | **Bandera** | Variable `boolean` que recuerda si algo ocurrió durante un ciclo. ([[Día 06 - Apuntes\|Día 6]]) |
 | **Bit / Byte** | Bit: un 0 o un 1. Byte: 8 bits. ([[Día 01 - Apuntes\|Día 1]]) |
@@ -37,7 +37,7 @@ Términos del curso, en orden alfabético. Entre paréntesis, el día donde se e
 | **Contador** | Variable que aumenta de uno en uno: `c = c + 1`. ([[Día 01 - Apuntes\|Día 1]]) |
 | **Cortocircuito** | En `a && b` o `a \|\| b`, Java no evalúa `b` si ya conoce el resultado con `a`. ([[Día 03 - Apuntes\|Día 3]]) |
 | **Declaración** | Indicar que una variable existe, con su tipo y nombre: `int edad;`. ([[Día 02 - Apuntes\|Día 2]]) |
-| **Diagonal principal / secundaria** | En una matriz cuadrada, las casillas con <code>f &#61;&#61; c</code> / con <code>f + c &#61;&#61; n - 1</code>. ([[Día 10 - Apuntes\|Día 10]]) |
+| **Diagonal principal / secundaria** | En una matriz cuadrada, las casillas con `f == c` / con `f + c == n - 1`. ([[Día 10 - Apuntes\|Día 10]]) |
 | **División entera** | División entre dos enteros: descarta la parte decimal (`7 / 2` → `3`). ([[Día 03 - Apuntes\|Día 3]]) |
 | **`do-while`** | Ciclo que ejecuta el cuerpo y después revisa la condición; se ejecuta al menos una vez. ([[Día 06 - Apuntes\|Día 6]]) |
 | **Error de lógica** | El programa compila pero da un resultado incorrecto. ([[Día 01 - Apuntes\|Día 1]]) |

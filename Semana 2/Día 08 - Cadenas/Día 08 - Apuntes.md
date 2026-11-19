@@ -195,8 +195,8 @@ public boolean esPalindromo(String s) {
 | ¿Mismo texto, sin importar mayúsculas? | `a.equalsIgnoreCase(b)` |
 | ¿Cuál va primero en orden alfabético? | `a.compareTo(b) < 0` → `a` va antes |
 
-> [!danger] Nunca <code>&#61;&#61;</code> con `String`
-> <code>&#61;&#61;</code> compara si son el **mismo objeto**, no si tienen el mismo texto ([[Día 03 - Apuntes#5. Operadores relacionales|Día 3]]).
+> [!danger] Nunca `a == b` con `String`
+> `a == b` compara si son el **mismo objeto**, no si tienen el mismo texto ([[Día 03 - Apuntes#5. Operadores relacionales|Día 3]]).
 
 ### 9. Convertir entre texto y números
 

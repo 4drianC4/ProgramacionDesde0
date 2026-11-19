@@ -108,7 +108,7 @@ switch (dia) {
 | Parte | Qué hace |
 |---|---|
 | `switch (x)` | variable a comparar: `int`, `char`, `String` |
-| `case v:` | empieza aquí si <code>x &#61;&#61; v</code> |
+| `case v:` | empieza aquí si `x == v` |
 | `break;` | sale del `switch` |
 | `default:` | si ningún `case` coincide |
 

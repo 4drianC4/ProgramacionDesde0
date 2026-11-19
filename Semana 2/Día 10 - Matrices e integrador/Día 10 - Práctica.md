@@ -81,7 +81,7 @@ Clase `Matrices`, un método por ejercicio:
 ## Parte C · Matrices cuadradas
 
 - [ ] **C1** ⭐ `int sumaDiagonalPrincipal(int[][] m)` y `int sumaDiagonalSecundaria(int[][] m)`
-- [ ] **C2** ⭐⭐ `boolean esSimetrica(int[][] m)` → <code>m[f][c] &#61;&#61; m[c][f]</code> para todo `f`, `c`.
+- [ ] **C2** ⭐⭐ `boolean esSimetrica(int[][] m)` → `m[f][c] == m[c][f]` para todo `f`, `c`.
 - [ ] **C3** ⭐⭐ `boolean esIdentidad(int[][] m)` → 1 en la diagonal principal y 0 en el resto.
 - [ ] **C4** ⭐⭐ `int sumaBorde(int[][] m)`
 - [ ] **C5** ⭐⭐ `String triangularInferior(int[][] m)` → muestra solo la diagonal y lo que está debajo (con espacios en el resto).
