@@ -137,7 +137,7 @@ public String nombreDia(int dia) {
 | Parte | Qué hace |
 |---|---|
 | `switch (dia)` | La variable que se compara. Puede ser `int`, `char` o `String` |
-| `case 1:` | Si `dia == 1`, empieza a ejecutar aquí |
+| `case 1:` | Si <code>dia &#61;&#61; 1</code>, empieza a ejecutar aquí |
 | `break;` | Sale del `switch`. **Sin** `break`, sigue ejecutando el siguiente `case` |
 | `default:` | Se ejecuta si ningún `case` coincide (como el `else` final) |
 

@@ -32,12 +32,12 @@ tags: [java, intro-programacion, dia-03, practica]
 - [ ] **A2** ⭐⭐ Con `int a = 5, b = 3, c = 8;` y `boolean p = true, q = false;`, evalúa:
   1. `a > b && c > a`
   2. `a > b && c < a`
-  3. `a == 5 || b == 5`
+  3. <code>a &#61;&#61; 5 &#124;&#124; b &#61;&#61; 5</code>
   4. `!(a > b)`
-  5. `a + b == c`
+  5. <code>a + b &#61;&#61; c</code>
   6. `p && !q`
   7. `!p || q && a < b`
-  8. `c % a == b && a % 2 != 0`
+  8. <code>c % a &#61;&#61; b &amp;&amp; a % 2 !&#61; 0</code>
   9. `a * 2 > c || b * 3 < c && p`
 
 - [ ] **A3** ⭐⭐ Escribe la **expresión Java** (que devuelva `boolean`) para cada condición:
@@ -62,7 +62,7 @@ tags: [java, intro-programacion, dia-03, practica]
 >
 > **A2:** 1) true · 2) false · 3) true · 4) false · 5) true · 6) true · 7) false (`&&` va antes que `||`: `false || (false && false)`) · 8) true · 9) true (`10 > 8` ya es true)
 >
-> **A3:** 1) `n % 2 == 0` · 2) `n % 3 == 0 && n % 5 == 0` · 3) `edad >= 18 && edad <= 65` · 4) `nota < 0 || nota > 100` · 5) `c >= 'a' && c <= 'z'` · 6) `c >= '0' && c <= '9'` · 7) `(anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0` · 8) `x > 0 && x % 10 == 0`
+> **A3:** 1) <code>n % 2 &#61;&#61; 0</code> · 2) <code>n % 3 &#61;&#61; 0 &amp;&amp; n % 5 &#61;&#61; 0</code> · 3) `edad >= 18 && edad <= 65` · 4) `nota < 0 || nota > 100` · 5) `c >= 'a' && c <= 'z'` · 6) `c >= '0' && c <= '9'` · 7) <code>(anio % 4 &#61;&#61; 0 &amp;&amp; anio % 100 !&#61; 0) &#124;&#124; anio % 400 &#61;&#61; 0</code> · 8) <code>x &gt; 0 &amp;&amp; x % 10 &#61;&#61; 0</code>
 >
 > **A4:** 1) `(a + b) / 2.0` · 2) `Math.sqrt(b*b - 4*a*c)` · 3) `(-b + Math.sqrt(b*b - 4*a*c)) / (2*a)` · 4) `Math.PI * r * r` · 5) `Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2))`
 

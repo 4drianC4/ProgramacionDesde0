@@ -192,7 +192,7 @@ int nota = 75;     // DECLARACIÓN + INICIALIZACIÓN en una línea
 int dia = 24, mes = 3;   // varias del mismo tipo en una línea
 ```
 
-El `=` es el **operador de asignación**: lo de la **derecha** se guarda en la **izquierda**. No significa "igual" (eso es `==`).
+El `=` es el **operador de asignación**: lo de la **derecha** se guarda en la **izquierda**. No significa "igual" (eso es <code>&#61;&#61;</code>).
 
 #### Reglas y convenciones de nombres
 

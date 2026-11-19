@@ -120,11 +120,11 @@ En una matriz de `n × n`:
 
 | Región | Condición sobre `[f][c]` |
 |---|---|
-| **Diagonal principal** | `f == c` |
-| **Diagonal secundaria** | `f + c == n - 1` |
+| **Diagonal principal** | <code>f &#61;&#61; c</code> |
+| **Diagonal secundaria** | <code>f + c &#61;&#61; n - 1</code> |
 | Sobre la diagonal principal | `c > f` |
 | Bajo la diagonal principal | `c < f` |
-| Borde | `f == 0 \|\| f == n - 1 \|\| c == 0 \|\| c == n - 1` |
+| Borde | <code>f &#61;&#61; 0 &#124;&#124; f &#61;&#61; n - 1 &#124;&#124; c &#61;&#61; 0 &#124;&#124; c &#61;&#61; n - 1</code> |
 
 ```text
 Diagonal principal (D)     Diagonal secundaria (S)
@@ -340,7 +340,7 @@ Los problemas grandes (como los de examen) se resuelven con los mismos pasos del
 > - `int[][] m = new int[filas][columnas];` · `m.length` filas · `m[0].length` columnas · `m[f][c]`.
 > - Recorrer: dos `for` anidados, filas afuera y columnas adentro.
 > - Fila fija → cambian las columnas; columna fija → cambian las filas.
-> - Diagonal principal `f == c`; secundaria `f + c == n - 1`.
+> - Diagonal principal <code>f &#61;&#61; c</code>; secundaria <code>f + c &#61;&#61; n - 1</code>.
 > - Una matriz puede ser atributo y combinarse con arreglos.
 > - Clases que colaboran: un arreglo de **objetos** + contador reemplaza a muchos arreglos paralelos.
 > - Problema grande: sustantivos → clases, verbos → métodos, un método a la vez.

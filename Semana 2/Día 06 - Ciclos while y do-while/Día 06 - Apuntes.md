@@ -270,7 +270,7 @@ public int invertir(int n) {
 | 3 | 1 | 321 | 0 → sale |
 
 > [!tip] Número espejo (palíndromo)
-> Un número es espejo si es igual a su inverso: `n == invertir(n)`.
+> Un número es espejo si es igual a su inverso: <code>n &#61;&#61; invertir(n)</code>.
 
 ### 10. Errores comunes con ciclos
 

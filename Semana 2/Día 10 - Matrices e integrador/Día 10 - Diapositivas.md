@@ -90,8 +90,8 @@ for (int f = 0; f < m.length; f++)
 
 | Región | Condición |
 |---|---|
-| Principal | `f == c` |
-| Secundaria | `f + c == n - 1` |
+| Principal | <code>f &#61;&#61; c</code> |
+| Secundaria | <code>f + c &#61;&#61; n - 1</code> |
 | Sobre la principal | `c > f` |
 | Bajo la principal | `c < f` |
 
@@ -186,7 +186,7 @@ for (int i = 1; i < cantidad; i++) {
 
 - `m[f][c]` · `m.length` filas · `m[0].length` columnas
 - Dos `for`: filas afuera, columnas adentro
-- Principal `f == c` · secundaria `f + c == n - 1`
+- Principal <code>f &#61;&#61; c</code> · secundaria <code>f + c &#61;&#61; n - 1</code>
 - Arreglo de **objetos** + contador
 - Sustantivos → clases · verbos → métodos
 

@@ -37,7 +37,7 @@ Términos del curso, en orden alfabético. Entre paréntesis, el día donde se e
 | **Contador** | Variable que aumenta de uno en uno: `c = c + 1`. ([[Día 01 - Apuntes\|Día 1]]) |
 | **Cortocircuito** | En `a && b` o `a \|\| b`, Java no evalúa `b` si ya conoce el resultado con `a`. ([[Día 03 - Apuntes\|Día 3]]) |
 | **Declaración** | Indicar que una variable existe, con su tipo y nombre: `int edad;`. ([[Día 02 - Apuntes\|Día 2]]) |
-| **Diagonal principal / secundaria** | En una matriz cuadrada, las casillas con `f == c` / con `f + c == n - 1`. ([[Día 10 - Apuntes\|Día 10]]) |
+| **Diagonal principal / secundaria** | En una matriz cuadrada, las casillas con <code>f &#61;&#61; c</code> / con <code>f + c &#61;&#61; n - 1</code>. ([[Día 10 - Apuntes\|Día 10]]) |
 | **División entera** | División entre dos enteros: descarta la parte decimal (`7 / 2` → `3`). ([[Día 03 - Apuntes\|Día 3]]) |
 | **`do-while`** | Ciclo que ejecuta el cuerpo y después revisa la condición; se ejecuta al menos una vez. ([[Día 06 - Apuntes\|Día 6]]) |
 | **Error de lógica** | El programa compila pero da un resultado incorrecto. ([[Día 01 - Apuntes\|Día 1]]) |

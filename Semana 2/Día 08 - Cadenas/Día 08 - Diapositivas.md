@@ -170,7 +170,7 @@ if (c >= 'a' && c <= 'z') {
 | sin mayúsculas | `a.equalsIgnoreCase(b)` |
 | orden alfabético | `a.compareTo(b) < 0` |
 
-> [!danger] Nunca `==` con `String`
+> [!danger] Nunca <code>&#61;&#61;</code> con `String`
 
 ---
 

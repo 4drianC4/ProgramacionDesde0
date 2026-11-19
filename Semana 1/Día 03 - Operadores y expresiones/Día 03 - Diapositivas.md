@@ -68,8 +68,8 @@ double d = (double) 10 / 3; // 3.333…
 
 | Para… | Expresión |
 |---|---|
-| ¿Es par? | `n % 2 == 0` |
-| ¿`d` divide a `n`? | `n % d == 0` |
+| ¿Es par? | <code>n % 2 &#61;&#61; 0</code> |
+| ¿`d` divide a `n`? | <code>n % d &#61;&#61; 0</code> |
 | Último dígito | `n % 10` |
 | Quitar último dígito | `n / 10` |
 | Dar la vuelta (reloj) | `(h + k) % 24` |
@@ -119,32 +119,32 @@ int v2 = ++suma;  // suma = 4, v2 = 4
 
 Hacen una **pregunta** → `true` o `false`
 
-| Op | Pregunta | Ejemplo |
-|---|---|---|
-| `==` | ¿iguales? | `5 == 5` → true |
-| `!=` | ¿distintos? | `23 != 7` → true |
-| `>` `<` | ¿mayor? ¿menor? | `5 < 3` → false |
-| `>=` `<=` | ¿mayor/menor o igual? | `5 >= 5` → true |
+| Op        | Pregunta              | Ejemplo          |
+| --------- | --------------------- | ---------------- |
+| <code>&#61;&#61;</code> | ¿iguales?             | <code>5 &#61;&#61; 5</code> → true  |
+| `!=`      | ¿distintos?           | `23 != 7` → true |
+| `>` `<`   | ¿mayor? ¿menor?       | `5 < 3` → false  |
+| `>=` `<=` | ¿mayor/menor o igual? | `5 >= 5` → true  |
 
 ---
 
 # Cuidado
 
-> [!warning] `=` no es `==`
-> `=` **asigna** · `==` **pregunta**
+> [!warning] <code>&#61;</code> no es <code>&#61;&#61;</code>
+> <code>&#61;</code> **asigna** · <code>&#61;&#61;</code> **pregunta**
 
 > [!danger] Los String se comparan con `.equals()`
-> `nombre.equals("Ana")` ✔ · `nombre == "Ana"` ✘
+> `nombre.equals("Ana")` ✔ · <code>nombre &#61;&#61; "Ana"</code> ✘
 
 ---
 
 # Operadores lógicos
 
-| Op | Es true si… | En español |
-|---|---|---|
-| `&&` | **todas** son true | "es lunes **y** son las 8" |
+| Op     | Es true si…              | En español                        |
+| ------ | ------------------------ | --------------------------------- |
+| `&&`   | **todas** son true       | "es lunes **y** son las 8"        |
 | `\|\|` | **al menos una** es true | "abre la cancha **o** el coliseo" |
-| `!` | invierte | "**no** llueve" |
+| `!`    | invierte                 | "**no** llueve"                   |
 
 ```java
 boolean enRango = nota >= 0 && nota <= 100;
@@ -170,7 +170,7 @@ boolean enRango = nota >= 0 && nota <= 100;
 3. `*` `/` `%`
 4. `+` `-`
 5. `<` `>` `<=` `>=`
-6. `==` `!=`
+6. <code>&#61;&#61;</code> `!=`
 7. `&&` → 8. `||` → 9. `?:` → 10. `=`
 
 **Ante la duda, paréntesis.**
@@ -179,11 +179,11 @@ boolean enRango = nota >= 0 && nota <= 100;
 
 # Evaluemos
 
-`3 + 4 * 2 > 10 && 7 % 2 == 1`
+<code>3 + 4 &#42; 2 &gt; 10 &amp;&amp; 7 % 2 &#61;&#61; 1</code>
 
 1. `4 * 2` → 8 · `7 % 2` → 1
 2. `3 + 8` → 11
-3. `11 > 10` → true · `1 == 1` → true
+3. `11 > 10` → true · <code>1 &#61;&#61; 1</code> → true
 4. `true && true` → **true**
 
 ---
