@@ -116,14 +116,14 @@ Como una **receta de cocina**: pasos numerados, en orden, que terminan.
 
 # Elementos básicos
 
-| Elemento | Pseudocódigo |
-|---|---|
-| Asignación | `Z ← Z + 3` |
-| Contador | `C ← 0` … `C ← C + 1` |
-| Acumulador | `S ← 0` … `S ← S + X` |
-| Leer / Mostrar | `Leer X` · `Mostrar S` |
-| Condicional | `Si A > B Entonces … Sino …` |
-| Repetición | `Si C < 10 Entonces Ir a 3` |
+| Elemento       | Pseudocódigo                 |
+| -------------- | ---------------------------- |
+| Asignación     | `Z ← Z + 3`                  |
+| Contador       | `C ← 0` … `C ← C + 1`        |
+| Acumulador     | `S ← 0` … `S ← S + X`        |
+| Leer / Mostrar | `Leer X` · `Mostrar S`       |
+| Condicional    | `Si A > B Entonces … Sino …` |
+| Repetición     | `Si C < 10 Entonces Ir a 3`  |
 
 ---
 
