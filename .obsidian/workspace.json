@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawing 2026-11-16 16.00.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-11-16 16.00.11.excalidraw"
             }
           }
         ]
@@ -241,9 +243,9 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Semana 1/Día 03 - Operadores y expresiones/Día 03 - Diapositivas.md",
+    "Drawing 2026-11-16 16.00.11.excalidraw.md",
     "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Práctica.md",
     "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Práctica.md",
-    "Drawing 2026-11-16 16.00.11.excalidraw.md",
     "Semana 1/Día 01 - La computadora y los algoritmos/Día 01 - Diapositivas.md",
     "Semana 1/Día 02 - Tu primera clase en Java/Día 02 - Diapositivas.md",
     "Semana 1/Día 03 - Operadores y expresiones/Día 03 - Práctica.md",
