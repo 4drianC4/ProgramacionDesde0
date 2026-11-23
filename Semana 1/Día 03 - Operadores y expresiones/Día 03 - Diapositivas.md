@@ -119,10 +119,10 @@ int v2 = ++suma;  // suma = 4, v2 = 4
 
 Hacen una **pregunta** → `true` o `false`
 
-| Op        | Pregunta              | Ejemplo          |
-| --------- | --------------------- | ---------------- |
-| `a == b`  | ¿iguales?             | `5 == 5` → true  |
-| `a != b`  | ¿distintos?           | `23 != 7` → true |
+| Op                | Pregunta              | Ejemplo          |
+| ----------------- | --------------------- | ---------------- |
+| `a == b`          | ¿iguales?             | `5 == 5` → true  |
+| `a != b`          | ¿distintos?           | `23 != 7` → true |
 | `a > b` `a < b`   | ¿mayor? ¿menor?       | `5 < 3` → false  |
 | `a >= b` `a <= b` | ¿mayor/menor o igual? | `5 >= 5` → true  |
 
