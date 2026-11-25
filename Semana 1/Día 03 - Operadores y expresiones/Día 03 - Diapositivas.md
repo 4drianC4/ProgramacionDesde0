@@ -140,11 +140,11 @@ Hacen una **pregunta** → `true` o `false`
 
 # Operadores lógicos
   
-| Op     | Es true si…              | En español                        |
-| ------ | ------------------------ | --------------------------------- |
-| `&&`   | **todas** son true       | "es lunes **y** son las 8"        |
-| `\|\|` | **al menos una** es true | "abre la cancha **o** el coliseo" |
-| `!`    | invierte                 | "**no** llueve"                   |
+| Op   | Es true si…              | En español                        |
+| ---- | ------------------------ | --------------------------------- |
+| `&&` | **todas** son true       | "es lunes **y** son las 8"        |
+| \|\| | **al menos una** es true | "abre la cancha **o** el coliseo" |
+| `!`  | invierte                 | "**no** llueve"                   |
 
 ```java
 boolean enRango = nota >= 0 && nota <= 100;
